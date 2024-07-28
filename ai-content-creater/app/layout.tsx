@@ -18,23 +18,23 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider>
+    
     <html lang="en">
         <body >
           {
           <div>
             <div className='md:w-64 hidden md:block fixed'>
-              <SideNav />
+              {/* <SideNav /> */}
               <h1>Hello</h1>
             </div>
             <div className='md:ml-64'>
               <Header />
-              {children}
+              {/* {children} */}
             </div>
           </div>    
           }
         </body>
     </html>
-    </ClerkProvider>
+    
   );
 }

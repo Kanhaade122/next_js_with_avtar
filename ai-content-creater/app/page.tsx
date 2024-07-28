@@ -9,9 +9,9 @@ export default function Home() {
   return ( 
     <div>
       {/* search section */}
-      <SearchSection onSearchInput={(value:string)=>setUserSearchInput(value)} />
+      {/* <SearchSection onSearchInput={(value:string)=>setUserSearchInput(value)} /> */}
       {/* Template List Section */}
-      <TemplateSection userSearchInput={userSearchInput} />
+      {/* <TemplateSection userSearchInput={userSearchInput} /> */}
     </div>
   )
   
